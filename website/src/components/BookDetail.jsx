@@ -1,7 +1,7 @@
 import { useContext, useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { Button, Tag, Grid, Column, InlineNotification } from '@carbon/react'
-import { ArrowLeft, Launch, Link as LinkIcon, View, ViewOff } from '@carbon/icons-react'
+import { ArrowLeft, Launch, Link as LinkIcon, View, ViewOff, Purchase } from '@carbon/icons-react'
 import { BooksContext } from '../App'
 import CoverImage from './CoverImage'
 import { getDisplayBook } from '../utils/bookDisplay'
@@ -29,7 +29,8 @@ export default function BookDetail() {
       .then(r => r.json())
       .then(data => {
         const key = adminKey(book)
-        setOverrideStatus(data[key] === 'hide' ? 'hide' : 'show')
+        const val = data[key]
+        setOverrideStatus(val === 'hide' ? 'hide' : val === 'sold' ? 'sold' : 'show')
       })
       .catch(() => {})
   }, [book])
@@ -167,10 +168,16 @@ export default function BookDetail() {
             <InlineNotification
               kind="success"
               title="Link copied!"
-              subtitle="Paste it into an email to share this item."
+              subtitle="Paste it into an email to Rosey. Grab all the links you want before sending."
               hideCloseButton
             />
           )}
+
+          <p className="book-detail__hint">
+            Interested? Copy the link above and paste it into an email to Rosey.
+            If you want multiple items, collect all your links first and send <strong>one email</strong>.
+            Items are first come, first served — Rosey will confirm availability when she replies.
+          </p>
         </Column>
 
         {display.summary && (
@@ -242,16 +249,52 @@ export default function BookDetail() {
               )}
 
               {/* Delink / restore toggle */}
-              <Button
-                kind={overrideStatus === 'hide' ? 'tertiary' : 'danger--ghost'}
-                size="sm"
-                renderIcon={overrideStatus === 'hide' ? View : ViewOff}
-                onClick={handleAdminToggle}
-              >
-                {overrideStatus === 'hide'
-                  ? 'Restore Google Books data'
-                  : 'Remove all Google Books data'}
-              </Button>
+              {overrideStatus !== 'sold' && (
+                <Button
+                  kind={overrideStatus === 'hide' ? 'tertiary' : 'danger--ghost'}
+                  size="sm"
+                  renderIcon={overrideStatus === 'hide' ? View : ViewOff}
+                  onClick={handleAdminToggle}
+                >
+                  {overrideStatus === 'hide'
+                    ? 'Restore Google Books data'
+                    : 'Remove all Google Books data'}
+                </Button>
+              )}
+
+              {/* Mark as sold */}
+              {overrideStatus === 'sold' ? (
+                <Button
+                  kind="tertiary"
+                  size="sm"
+                  onClick={async () => {
+                    const data = await postOverride({ action: 'show' })
+                    if (data.ok) {
+                      setOverrideStatus('show')
+                      setAdminMsg('Marked as available again. Re-run the pipeline to apply.')
+                      setTimeout(() => setAdminMsg(''), 5000)
+                    }
+                  }}
+                >
+                  Unmark as sold
+                </Button>
+              ) : (
+                <Button
+                  kind="danger"
+                  size="sm"
+                  renderIcon={Purchase}
+                  onClick={async () => {
+                    const data = await postOverride({ action: 'sold' })
+                    if (data.ok) {
+                      setOverrideStatus('sold')
+                      setAdminMsg('Marked as sold. Re-run the pipeline to remove from the site.')
+                      setTimeout(() => setAdminMsg(''), 5000)
+                    }
+                  }}
+                >
+                  Mark as sold
+                </Button>
+              )}
 
               {adminMsg && <p className="admin-panel__msg">{adminMsg}</p>}
             </div>

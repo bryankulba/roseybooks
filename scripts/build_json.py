@@ -469,7 +469,10 @@ def main():
         candidates = entry.get("candidates", [])
         hidden     = False
 
-        if ov_val == "hide":
+        if ov_val == "sold":
+            print(f"    sold   (override)")
+            continue  # skip entirely — item is sold
+        elif ov_val == "hide":
             hidden = True
         elif ov_val == "confirm":
             confidence = "high"  # user confirmed the current match is correct

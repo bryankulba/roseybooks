@@ -1,7 +1,7 @@
 import { useContext, useState, useEffect, useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Grid, Column, Button, Tag } from '@carbon/react'
-import { ArrowLeft, Launch, Checkmark, ViewOff, CheckmarkFilled } from '@carbon/icons-react'
+import { ArrowLeft, Launch, Checkmark, ViewOff, CheckmarkFilled, Purchase } from '@carbon/icons-react'
 import { BooksContext } from '../App'
 
 function adminKey(book) {
@@ -49,10 +49,12 @@ export default function AdminPage() {
   const books    = useContext(BooksContext)
   const navigate = useNavigate()
 
-  const [overrides,  setOverrides]  = useState({})
-  const [actioned,   setActioned]   = useState(new Set()) // keys actioned this session
-  const [view,       setView]       = useState('pending') // 'pending' | 'reviewed' | 'all'
-  const [saving,     setSaving]     = useState(null) // key currently being saved
+  const [overrides,   setOverrides]  = useState({})
+  const [actioned,    setActioned]   = useState(new Set()) // keys actioned this session
+  const [view,        setView]       = useState('pending') // 'pending' | 'reviewed' | 'all'
+  const [saving,      setSaving]     = useState(null) // key currently being saved
+  const [deployState, setDeployState] = useState('idle') // 'idle' | 'running' | 'done' | 'error'
+  const [deployLog,   setDeployLog]  = useState([])
 
   useEffect(() => {
     fetch('/api/admin/override')
@@ -98,9 +100,27 @@ export default function AdminPage() {
     }
   }
 
+  const handleDeploy = () => {
+    setDeployState('running')
+    setDeployLog([])
+    const es = new EventSource('/api/admin/deploy')
+    es.onmessage = (e) => {
+      const { type, text } = JSON.parse(e.data)
+      if (type === 'done')  { setDeployState('done');  es.close() }
+      if (type === 'error') { setDeployState('error'); es.close() }
+      setDeployLog(prev => [...prev, { type, text }])
+    }
+    es.onerror = () => {
+      setDeployState('error')
+      setDeployLog(prev => [...prev, { type: 'error', text: 'Connection lost.' }])
+      es.close()
+    }
+  }
+
   const handleSelect  = (book, volumeId) => postOverride(book, { action: 'select', volumeId })
   const handleConfirm = (book) => postOverride(book, { action: 'confirm' })
   const handleDelink  = (book) => postOverride(book, { action: 'hide' })
+  const handleSold    = (book) => postOverride(book, { action: 'sold' })
   const handleRestore = (book) => postOverride(book, { action: 'show' })
 
   const pending   = lowConfBooks.filter(b => !actioned.has(adminKey(b))).length
@@ -148,6 +168,30 @@ export default function AdminPage() {
                 No low-confidence matches found. Run the pipeline to generate match data.
               </p>
             )}
+
+            <div className="deploy-panel">
+              <div className="deploy-panel__header">
+                <Button
+                  kind="primary"
+                  size="sm"
+                  disabled={deployState === 'running'}
+                  onClick={handleDeploy}
+                >
+                  {deployState === 'running' ? 'Deploying…' : '🚀 Run pipeline & deploy'}
+                </Button>
+                {deployState === 'done'  && <span className="deploy-panel__status deploy-panel__status--done">✓ Live</span>}
+                {deployState === 'error' && <span className="deploy-panel__status deploy-panel__status--error">✗ Failed</span>}
+              </div>
+              {deployLog.length > 0 && (
+                <div className="deploy-panel__log">
+                  {deployLog.map((line, i) => (
+                    <p key={i} className={`deploy-panel__line deploy-panel__line--${line.type}`}>
+                      {line.text}
+                    </p>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </Column>
 
@@ -157,6 +201,7 @@ export default function AdminPage() {
           const isHidden    = ov === 'hide'
           const isConfirmed = ov === 'confirm'
           const isSelected  = typeof ov === 'object' && ov?.volumeId
+          const isSold      = ov === 'sold'
           const isDone      = actioned.has(key)
           const isSaving    = saving === key
 
@@ -171,9 +216,10 @@ export default function AdminPage() {
                     {book.matchConfidence === 'low' && !isConfirmed && !isSelected && (
                       <Tag type="yellow" size="sm">low confidence</Tag>
                     )}
-                    {isConfirmed && <Tag type="green" size="sm">confirmed</Tag>}
-                    {isSelected  && <Tag type="green" size="sm">match selected</Tag>}
-                    {isHidden    && <Tag type="red"   size="sm">delinked</Tag>}
+                    {isConfirmed && <Tag type="green"  size="sm">confirmed</Tag>}
+                    {isSelected  && <Tag type="green"  size="sm">match selected</Tag>}
+                    {isHidden    && <Tag type="red"    size="sm">delinked</Tag>}
+                    {isSold      && <Tag type="purple" size="sm">sold</Tag>}
                   </div>
                   <p className="admin-book__title">{book.title}</p>
                   {book.author && (
@@ -208,7 +254,7 @@ export default function AdminPage() {
 
                 {/* Actions */}
                 <div className="admin-book__actions">
-                  {(isHidden || isConfirmed || isSelected) && (
+                  {(isHidden || isConfirmed || isSelected || isSold) && (
                     <Button
                       kind="ghost"
                       size="sm"
@@ -218,7 +264,7 @@ export default function AdminPage() {
                       Undo
                     </Button>
                   )}
-                  {!isHidden && (
+                  {!isSold && !isHidden && (
                     <>
                       {!isConfirmed && (
                         <Button
@@ -241,6 +287,17 @@ export default function AdminPage() {
                         Delink
                       </Button>
                     </>
+                  )}
+                  {!isSold && (
+                    <Button
+                      kind="danger"
+                      size="sm"
+                      renderIcon={Purchase}
+                      disabled={isSaving}
+                      onClick={() => handleSold(book)}
+                    >
+                      Mark sold
+                    </Button>
                   )}
                 </div>
               </div>

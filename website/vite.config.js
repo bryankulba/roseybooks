@@ -2,8 +2,11 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import fs from 'node:fs'
 import path from 'node:path'
+import { spawn } from 'node:child_process'
 
 const OVERRIDES_FILE = path.resolve(__dirname, '../scripts/overrides.json')
+const ROOT_DIR       = path.resolve(__dirname, '..')
+const WEBSITE_DIR    = __dirname
 
 function adminPlugin() {
   return {
@@ -53,6 +56,8 @@ function adminPlugin() {
                 overrides[key] = { volumeId }
               } else if (action === 'confirm') {
                 overrides[key] = 'confirm'
+              } else if (action === 'sold') {
+                overrides[key] = 'sold'
               }
               fs.writeFileSync(OVERRIDES_FILE, JSON.stringify(overrides, null, 2) + '\n', 'utf8')
               res.statusCode = 200
@@ -67,6 +72,67 @@ function adminPlugin() {
 
         res.statusCode = 405
         res.end(JSON.stringify({ error: 'Method not allowed' }))
+      })
+
+      // Deploy endpoint — runs pipeline then npm run deploy, streams output via SSE
+      server.middlewares.use('/api/admin/deploy', (req, res) => {
+        if (req.method !== 'GET') {
+          res.statusCode = 405
+          res.end()
+          return
+        }
+
+        res.setHeader('Content-Type', 'text/event-stream')
+        res.setHeader('Cache-Control', 'no-cache')
+        res.setHeader('Connection', 'keep-alive')
+        res.setHeader('Access-Control-Allow-Origin', '*')
+
+        const send = (type, text) =>
+          res.write(`data: ${JSON.stringify({ type, text })}\n\n`)
+
+        const runStep = (label, cmd, args, cwd) =>
+          new Promise((resolve, reject) => {
+            send('step', label)
+            const proc = spawn(cmd, args, { cwd })
+            const onData = (d) =>
+              d.toString().split('\n').filter(Boolean).forEach(l => send('log', l))
+            proc.stdout.on('data', onData)
+            proc.stderr.on('data', onData)
+            proc.on('close', code =>
+              code === 0 ? resolve() : reject(new Error(`${label} exited with code ${code}`))
+            )
+          })
+
+        ;(async () => {
+          try {
+            await runStep('Running pipeline…', `${ROOT_DIR}/.venv/bin/python`,
+              ['scripts/build_json.py'], ROOT_DIR)
+
+            await runStep('Committing changes…', 'git',
+              ['add', 'scripts/overrides.json', 'website/public/books.json'], ROOT_DIR)
+
+            // Only commit if there are staged changes
+            const status = await new Promise(resolve => {
+              const p = spawn('git', ['diff', '--cached', '--quiet'], { cwd: ROOT_DIR })
+              p.on('close', code => resolve(code))
+            })
+            if (status !== 0) {
+              await runStep('Committing…', 'git',
+                ['commit', '-m', 'Update books and overrides'], ROOT_DIR)
+              await runStep('Pushing to main…', 'git', ['push'], ROOT_DIR)
+            } else {
+              send('log', 'No changes to commit.')
+            }
+
+            await runStep('Deploying to GitHub Pages…', 'npm', ['run', 'deploy'], WEBSITE_DIR)
+
+            send('done', 'Done! Site is live.')
+          } catch (e) {
+            send('error', e.message)
+          } finally {
+            res.end()
+          }
+        })()
       })
     },
   }
