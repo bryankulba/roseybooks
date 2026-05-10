@@ -1,0 +1,16 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Pipeline cache — large, not needed in repo
+scripts/cache.json
+
+# Node
+website/node_modules/
+
+# Build output (gh-pages branch handles this)
+website/dist/
+
+# macOS
+.DS_Store
