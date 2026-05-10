@@ -95,7 +95,7 @@ export default function BookList() {
 
       <Column lg={16} md={8} sm={4}>
         <p className="browse-hint">
-          See something you like? Open each item and copy its link, then paste all your links into <strong>one email</strong> to Rosey.
+          See something you like? Open each item and hit <strong>Copy details</strong>, then paste everything into <strong>one email</strong> to Rosey.
           Items are <strong>first come, first served</strong> — Rosey will confirm availability when she replies.
         </p>
         <p className="book-count">{filtered.length} items</p>

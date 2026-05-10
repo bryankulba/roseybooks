@@ -91,11 +91,12 @@ export default function BookDetail() {
   }
 
   const handleCopyLink = async () => {
+    const text = `${book.title}${display.price != null ? ` - $${display.price}` : ''} - ${window.location.href}`
     try {
-      await navigator.clipboard.writeText(window.location.href)
+      await navigator.clipboard.writeText(text)
     } catch {
       const el = document.createElement('input')
-      el.value = window.location.href
+      el.value = text
       document.body.appendChild(el)
       el.select()
       document.execCommand('copy')
@@ -160,7 +161,7 @@ export default function BookDetail() {
               </Button>
             )}
             <Button kind="secondary" renderIcon={LinkIcon} onClick={handleCopyLink}>
-              Copy link
+              Copy details
             </Button>
           </div>
 
@@ -168,14 +169,14 @@ export default function BookDetail() {
             <InlineNotification
               kind="success"
               title="Link copied!"
-              subtitle="Paste it into an email to Rosey. Grab all the links you want before sending."
+              subtitle="Paste it into an email to Rosey. Grab all the details you want before sending."
               hideCloseButton
             />
           )}
 
           <p className="book-detail__hint">
-            Interested? Copy the link above and paste it into an email to Rosey.
-            If you want multiple items, collect all your links first and send <strong>one email</strong>.
+            Interested? Hit <strong>Copy details</strong> and paste it into an email to Rosey.
+            If you want multiple items, copy each one and paste them all into <strong>one email</strong>.
             Items are first come, first served — Rosey will confirm availability when she replies.
           </p>
         </Column>
