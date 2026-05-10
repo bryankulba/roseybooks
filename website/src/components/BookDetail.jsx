@@ -1,17 +1,38 @@
-import { useContext, useState } from 'react'
+import { useContext, useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { Button, Tag, Grid, Column, InlineNotification } from '@carbon/react'
-import { ArrowLeft, Launch, Link as LinkIcon } from '@carbon/icons-react'
+import { ArrowLeft, Launch, Link as LinkIcon, View, ViewOff } from '@carbon/icons-react'
 import { BooksContext } from '../App'
 import CoverImage from './CoverImage'
+import { getDisplayBook } from '../utils/bookDisplay'
+
+const IS_DEV = import.meta.env.DEV
+
+function adminKey(book) {
+  return `${book.title.toLowerCase().trim()}|||${(book.author || '').toLowerCase().trim()}`
+}
 
 export default function BookDetail() {
   const { id } = useParams()
   const navigate = useNavigate()
   const books = useContext(BooksContext)
   const [copied, setCopied] = useState(false)
+  const [overrideStatus, setOverrideStatus] = useState(null) // null | 'hide' | 'show'
+  const [adminMsg, setAdminMsg] = useState('')
 
-  const book = books.find(b => b.id === parseInt(id, 10))
+  const book    = books.find(b => b.id === parseInt(id, 10))
+  const display = book ? getDisplayBook(book) : null
+
+  useEffect(() => {
+    if (!IS_DEV || !book) return
+    fetch('/api/admin/override')
+      .then(r => r.json())
+      .then(data => {
+        const key = adminKey(book)
+        setOverrideStatus(data[key] === 'hide' ? 'hide' : 'show')
+      })
+      .catch(() => {})
+  }, [book])
 
   if (!book) {
     return (
@@ -24,6 +45,48 @@ export default function BookDetail() {
         </Column>
       </Grid>
     )
+  }
+
+  const postOverride = async (payload) => {
+    const r = await fetch('/api/admin/override', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ key: adminKey(book), ...payload }),
+    })
+    return r.json()
+  }
+
+  const handleAdminToggle = async () => {
+    const action = overrideStatus === 'hide' ? 'show' : 'hide'
+    try {
+      const data = await postOverride({ action })
+      if (data.ok) {
+        setOverrideStatus(action)
+        setAdminMsg(
+          action === 'hide'
+            ? 'Delinked. Re-run the pipeline to apply.'
+            : 'Override removed. Re-run the pipeline to restore.'
+        )
+        setTimeout(() => setAdminMsg(''), 5000)
+      }
+    } catch {
+      setAdminMsg('Error writing override.')
+      setTimeout(() => setAdminMsg(''), 4000)
+    }
+  }
+
+  const handleSelectCandidate = async (volumeId) => {
+    try {
+      const data = await postOverride({ action: 'select', volumeId })
+      if (data.ok) {
+        setOverrideStatus('selected')
+        setAdminMsg('Match saved. Re-run the pipeline to apply.')
+        setTimeout(() => setAdminMsg(''), 5000)
+      }
+    } catch {
+      setAdminMsg('Error writing override.')
+      setTimeout(() => setAdminMsg(''), 4000)
+    }
   }
 
   const handleCopyLink = async () => {
@@ -52,7 +115,7 @@ export default function BookDetail() {
 
         <Column lg={4} md={3} sm={4}>
           <div className="book-detail__cover">
-            <CoverImage book={book} loading="eager" />
+            <CoverImage book={display} loading="eager" />
           </div>
         </Column>
 
@@ -66,17 +129,17 @@ export default function BookDetail() {
           </div>
 
           <dl className="book-detail__meta">
-            {book.price != null && (
-              <><dt>Price</dt><dd>${book.price}</dd></>
+            {display.price != null && (
+              <><dt>Price</dt><dd>${display.price}</dd></>
             )}
             {book.date && (
               <><dt>Published</dt><dd>{book.date}</dd></>
             )}
-            {book.publisher && (
-              <><dt>Publisher</dt><dd>{book.publisher}</dd></>
+            {display.publisher && (
+              <><dt>Publisher</dt><dd>{display.publisher}</dd></>
             )}
-            {book.pageCount && (
-              <><dt>Pages</dt><dd>{book.pageCount}</dd></>
+            {display.pageCount && (
+              <><dt>Pages</dt><dd>{display.pageCount}</dd></>
             )}
             {book.mediaNote && (
               <><dt>Includes</dt><dd>{book.mediaNote}</dd></>
@@ -84,11 +147,11 @@ export default function BookDetail() {
           </dl>
 
           <div className="book-detail__actions">
-            {book.googleBooksUrl && (
+            {display.googleBooksUrl && (
               <Button
                 kind="primary"
                 renderIcon={Launch}
-                href={book.googleBooksUrl}
+                href={display.googleBooksUrl}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -110,10 +173,88 @@ export default function BookDetail() {
           )}
         </Column>
 
-        {book.summary && (
+        {display.summary && (
           <Column lg={16} md={8} sm={4}>
             <p className="book-detail__summary-heading">About this book</p>
-            <p className="book-detail__summary">{book.summary}</p>
+            <p className="book-detail__summary">{display.summary}</p>
+          </Column>
+        )}
+
+        {IS_DEV && overrideStatus !== null && (
+          <Column lg={16} md={8} sm={4}>
+            <div className="admin-panel">
+              <p className="admin-panel__label">⚙ Admin (dev only)</p>
+
+              {/* Confidence badge */}
+              {book.matchConfidence && book.matchConfidence !== 'none' && (
+                <p className={`admin-panel__confidence admin-panel__confidence--${book.matchConfidence}`}>
+                  Match confidence: <strong>{book.matchConfidence}</strong>
+                  {book.matchConfidence === 'low' && ' — review candidates below'}
+                </p>
+              )}
+
+              {/* Candidate picker — only shown when confidence is low and alternatives exist */}
+              {book.matchConfidence === 'low' && book.candidates?.length > 0 && (
+                <div className="admin-panel__candidates">
+                  <p className="admin-panel__candidates-label">Google Books candidates (best match first):</p>
+                  <div className="admin-panel__candidates-list">
+                    {book.candidates.map((c, i) => (
+                      <div key={c.volumeId} className="admin-candidate">
+                        {c.coverUrl && (
+                          <img
+                            src={c.coverUrl}
+                            alt={c.title}
+                            className="admin-candidate__cover"
+                          />
+                        )}
+                        <div className="admin-candidate__info">
+                          <p className="admin-candidate__title">{c.title}</p>
+                          {c.authors?.length > 0 && (
+                            <p className="admin-candidate__author">{c.authors.join(', ')}</p>
+                          )}
+                          <div className="admin-candidate__actions">
+                            {i === 0 && <span className="admin-candidate__current">currently matched</span>}
+                            <Button
+                              kind="ghost"
+                              size="sm"
+                              renderIcon={Launch}
+                              href={c.googleBooksUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              View
+                            </Button>
+                            {i !== 0 && (
+                              <Button
+                                kind="tertiary"
+                                size="sm"
+                                onClick={() => handleSelectCandidate(c.volumeId)}
+                              >
+                                Use this match
+                              </Button>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Delink / restore toggle */}
+              <Button
+                kind={overrideStatus === 'hide' ? 'tertiary' : 'danger--ghost'}
+                size="sm"
+                renderIcon={overrideStatus === 'hide' ? View : ViewOff}
+                onClick={handleAdminToggle}
+              >
+                {overrideStatus === 'hide'
+                  ? 'Restore Google Books data'
+                  : 'Remove all Google Books data'}
+              </Button>
+
+              {adminMsg && <p className="admin-panel__msg">{adminMsg}</p>}
+            </div>
           </Column>
         )}
       </Grid>

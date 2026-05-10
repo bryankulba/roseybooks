@@ -3,13 +3,18 @@ import { createHashRouter, RouterProvider } from 'react-router-dom'
 import { Theme, Header, HeaderName, Content, Loading } from '@carbon/react'
 import BookList from './components/BookList'
 import BookDetail from './components/BookDetail'
+import AdminPage from './components/AdminPage'
 
 export const BooksContext = createContext([])
 
-const router = createHashRouter([
+const routes = [
   { path: '/', element: <BookList /> },
   { path: '/book/:id', element: <BookDetail /> },
-])
+]
+if (import.meta.env.DEV) {
+  routes.push({ path: '/admin', element: <AdminPage /> })
+}
+const router = createHashRouter(routes)
 
 export default function App() {
   const [books, setBooks] = useState([])
@@ -26,6 +31,11 @@ export default function App() {
     <Theme theme="g100">
       <Header aria-label="Rosey's Resource Sale">
         <HeaderName prefix="">Rosey's Resource Sale</HeaderName>
+        {import.meta.env.DEV && (
+          <a href="#/admin" style={{ marginLeft: 'auto', marginRight: '1rem', fontSize: '0.875rem', color: '#f1c21b', alignSelf: 'center', textDecoration: 'none' }}>
+            ⚙ Admin
+          </a>
+        )}
       </Header>
       <Content>
         {loading
