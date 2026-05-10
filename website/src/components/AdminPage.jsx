@@ -177,7 +177,7 @@ export default function AdminPage() {
                   disabled={deployState === 'running'}
                   onClick={handleDeploy}
                 >
-                  {deployState === 'running' ? 'Deploying…' : '🚀 Run pipeline & deploy'}
+                  {deployState === 'running' ? 'Working…' : '🚀 Run pipeline & push'}
                 </Button>
                 {deployState === 'done'  && <span className="deploy-panel__status deploy-panel__status--done">✓ Live</span>}
                 {deployState === 'error' && <span className="deploy-panel__status deploy-panel__status--error">✗ Failed</span>}

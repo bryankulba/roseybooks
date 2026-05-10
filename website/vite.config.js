@@ -108,25 +108,23 @@ function adminPlugin() {
             await runStep('Running pipeline…', `${ROOT_DIR}/.venv/bin/python`,
               ['scripts/build_json.py'], ROOT_DIR)
 
-            await runStep('Committing changes…', 'git',
+            await runStep('Staging changes…', 'git',
               ['add', 'scripts/overrides.json', 'website/public/books.json'], ROOT_DIR)
 
             // Only commit if there are staged changes
-            const status = await new Promise(resolve => {
+            const hasStagedChanges = await new Promise(resolve => {
               const p = spawn('git', ['diff', '--cached', '--quiet'], { cwd: ROOT_DIR })
-              p.on('close', code => resolve(code))
+              p.on('close', code => resolve(code !== 0))
             })
-            if (status !== 0) {
+
+            if (hasStagedChanges) {
               await runStep('Committing…', 'git',
                 ['commit', '-m', 'Update books and overrides'], ROOT_DIR)
               await runStep('Pushing to main…', 'git', ['push'], ROOT_DIR)
+              send('done', 'Done! Changes pushed to main.')
             } else {
-              send('log', 'No changes to commit.')
+              send('done', 'Pipeline ran — no changes to push.')
             }
-
-            await runStep('Deploying to GitHub Pages…', 'npm', ['run', 'deploy'], WEBSITE_DIR)
-
-            send('done', 'Done! Site is live.')
           } catch (e) {
             send('error', e.message)
           } finally {
