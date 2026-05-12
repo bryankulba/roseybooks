@@ -2283,23 +2283,6 @@
     "candidates": []
   },
   {
-    "id": 99,
-    "type": "Resource Book",
-    "title": "Conversational Solfege- Level 1- Classical Music Selections- First Steps in Music Cd",
-    "author": "John Feirabend",
-    "subject": "First Steps in Music",
-    "date": "",
-    "price": 5.0,
-    "mediaNote": "CD",
-    "coverUrl": "https://books.google.com/books/content?id=2tKozQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=2tKozQEACAAJ",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
     "id": 100,
     "type": "Resource Book",
     "title": "Cornstalk Fiddle and Other Homemade Instruments",
@@ -2381,23 +2364,6 @@
     "publisher": "Warner Bros. Publications",
     "pageCount": null,
     "summary": "Intended for teaching music and rhythm to children. Contains instructions on notation, musical examples, and activities. Utilizes the Orff-Schulwerk methods.",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
-    "id": 105,
-    "type": "Resource Book",
-    "title": "Dalcroze Eurhythmics in the Choral Classroom",
-    "author": "Marla Butke and David Frego",
-    "subject": "Dalcroze",
-    "date": "2021",
-    "price": 20.0,
-    "mediaNote": "Online Access Code",
-    "coverUrl": "https://books.google.com/books/content?id=QwlfzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=QwlfzgEACAAJ",
-    "publisher": "Hal Leonard Publishing Corporation",
-    "pageCount": 160,
-    "summary": "(Choral). \"This book is well organized, clearly written and broadly applicable to multiple teaching contexts. I highly recommend this as an essential resource in every choral educators' library.\" So says master teacher and acting ACDA executive director Hilary Apfelstadt. Written by two of the world's leaders in Dalcroze Eurhythmics, Marla Butke and David Frego, this resource brings together all of the elements that make teaching with movement such a success with choral music. Twenty-six videos ",
     "matchConfidence": "high",
     "candidates": []
   },
@@ -5310,23 +5276,6 @@
     "candidates": []
   },
   {
-    "id": 228,
-    "type": "Resource Book",
-    "title": "Making each minute count- Time savers, tips and kid tested strategies for the music class",
-    "author": "Cheryl Lavender",
-    "subject": "General Pedagogy",
-    "date": "1991",
-    "price": 10.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=xI4KAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=xI4KAAAACAAJ",
-    "publisher": "[New Berlin, WI] : Jenson Publications ; Milwaukee, WI : Exclusively distributed by H. Leonard Publishing Corporation",
-    "pageCount": null,
-    "summary": "Look who's having the best time ... THE MUSIC TEACHER! This comprehensive time-management resource book for the music specialist can help you stay fresh and on top of things even with back-to-back music classes. Based on years of classroom experience, the author shares her philosophy of helping students learn HOW to learn. There are literally dozens of ideas to help you FIND time, STRETCH time, SAVE time, and MAKE more time to meet all your instructional goals. This book will place the magic wan",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
     "id": 229,
     "type": "Resource Book",
     "title": "Making Music Come Alive",
@@ -7434,67 +7383,6 @@
     "candidates": []
   },
   {
-    "id": 301,
-    "type": "Resource Book",
-    "title": "National Anthems- Piano/vocal arrangements, reproducible vocal scores, performance/accompaniment CD in a variety of keys",
-    "author": "Tominik Hauser- Themes and Variations",
-    "subject": "Choral",
-    "date": "2003",
-    "price": 5.0,
-    "mediaNote": "CD",
-    "coverUrl": "",
-    "googleBooksUrl": "",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "2XO_NAEACAAJ",
-        "title": "A World of Anthems: 60 National Anthems Arranged for Voice and Piano",
-        "authors": [],
-        "coverUrl": "https://books.google.com/books/content?id=2XO_NAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=2XO_NAEACAAJ"
-      },
-      {
-        "volumeId": "dZ10AQAAQBAJ",
-        "title": "National Anthems Vol. 4",
-        "authors": [
-          "Viktor Dick"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=dZ10AQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=dZ10AQAAQBAJ"
-      },
-      {
-        "volumeId": "3bNzAQAAQBAJ",
-        "title": "National Anthems Vol. 3",
-        "authors": [
-          "Viktor Dick"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=3bNzAQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=3bNzAQAAQBAJ"
-      },
-      {
-        "volumeId": "1ehpAQAAQBAJ",
-        "title": "National Anthems Vol. 2",
-        "authors": [
-          "Viktor Dick"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=1ehpAQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=1ehpAQAAQBAJ"
-      },
-      {
-        "volumeId": "A8LsDwAAQBAJ",
-        "title": "National Anthems",
-        "authors": [
-          "Jakob Seibert"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=A8LsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=A8LsDwAAQBAJ"
-      }
-    ]
-  },
-  {
     "id": 302,
     "type": "Picture Book",
     "title": "Nedobeck's 12 days of christmas",
@@ -8201,23 +8089,6 @@
     "publisher": "",
     "pageCount": 12,
     "summary": "",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
-    "id": 337,
-    "type": "Resource Book",
-    "title": "Quick Starts for Young Choir- Activities and Ideas to Focus Young Singers",
-    "author": "Cristi Cary Miller and Angela K McKenna",
-    "subject": "Choral",
-    "date": "2013",
-    "price": 5.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=w3WynQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=w3WynQEACAAJ",
-    "publisher": "Hal Leonard Publishing Corporation",
-    "pageCount": null,
-    "summary": "Secular Musicals - Classroom",
     "matchConfidence": "high",
     "candidates": []
   },
@@ -11223,23 +11094,6 @@
     "publisher": "Heritage Music Press",
     "pageCount": 40,
     "summary": "Grades 2-6 * A bass drum. A scratch record. A cello. A lions roar. A dogs bark. A gamelan. All of these sounds and millions more are right at your fingertips. Literally. Its the human bodythe greatest and most diverse instrument on the planet. Think of the possibilities. You can stomp with the whole foot, or just with the heel. You can tap your toes or slide your foot across the floor. You can pat your tummy or pat your chest. Now imagine all the possibilities when you use vocal percussion and o",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
-    "id": 454,
-    "type": "Resource Book",
-    "title": "The choral warm-up collection- A sourcebook of 167 choral warmups contributed by 51 choral directors",
-    "author": "Sally Albrecht",
-    "subject": "Choral",
-    "date": "",
-    "price": 10.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=5vmI9Bt2G78C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=5vmI9Bt2G78C",
-    "publisher": "Alfred Music",
-    "pageCount": 132,
-    "summary": "Alfred Music is proud to support ACDA (The American Choral Directors Association) with the publication of The Choral Warm-Up Collection, a new sourcebook featuring 167 favorite warm-ups contributed by 51 choral directors from across the nation. These generous directors have agreed to donate their royalties to the ACDA Endowment Trust, to be used for student scholarships and conducting awards. This incredible resource consists of warm-ups for every situation and focusing on many different vocal a",
     "matchConfidence": "high",
     "candidates": []
   },
