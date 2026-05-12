@@ -55,10 +55,8 @@
   "discovering keetman-rhythmic exercises and piece for xylophone by gunild keetman- smc 547|||jane frazee": "hide",
   "disney movie favorites- 9 hits arranged for recorder solo or duet|||hal leonard": "confirm",
   "do rabbits have christmas? poems by aileen fisher|||": "confirm",
-  "elephant jam- sharon, lois and bram|||": "confirm",
-  "elf- a short story of a tall tale|||": {
-    "volumeId": "nIm1xT6IW1AC"
-  },
+  "elephant jam- sharon, lois and bram|||": "sold",
+  "elf- a short story of a tall tale|||": "sold",
   "everything about playing blues- guitarist's guide to playing the blues|||praxis": "confirm",
   "exploring orff- a teacher's guide- smc-76|||arvia steen": "confirm",
   "eye winker, tom tinker, chin chopper- 50 musical fingerplays with piano arrangement and guitar chords|||tom glazer": "confirm",
@@ -103,9 +101,7 @@
   "k-3 christmas concert ideas|||denise gagne": "hide",
   "keeping the beat- from corelli to kabalevsky- first steps in music cd|||john feirabend & jill trinka": "hide",
   "kids christmas party|||": "hide",
-  "kidstix- rockin' repertoire for rhythm readiness- grades 3-6|||artie almeida": {
-    "volumeId": "2tUzrgEACAAJ"
-  },
+  "kidstix- rockin' repertoire for rhythm readiness- grades 3-6|||artie almeida": "sold",
   "kodaly today- a cognitive approach to elementary music education|||micheal houlahan and philip tacka": "confirm",
   "land of the silver birch- early intermediate folksongs for piano- book 2|||nancy telfer": "confirm",
   "language through music|||luther, mcpherson, milller and ray": "hide",
@@ -118,7 +114,7 @@
     "volumeId": "Oy0_nQEACAAJ"
   },
   "lights! camera! christmas- a blockbuster musical for young voices- teacher's guide|||john jacobson and roger emerson": "hide",
-  "listening fun with scarves and tennis balls|||dan fee": "confirm",
+  "listening fun with scarves and tennis balls|||dan fee": "sold",
   "little ukers- a comprehensive ukulele method for young students- 2nd edition- level 1- c tuning- (low) g c e a|||melissa mcknight": "confirm",
   "look what followed me home!- and other songs for children- arranged for orff instruments|||alice olsen": "hide",
   "make and play- easy instructions for producing simple instruments in the elementary music classroom- multicultural performance plays and music included|||valeaira luppens": "confirm",
@@ -267,5 +263,65 @@
   "the irish songbook- 75 songs by the clancy brothers and tommy makem|||robert decormier, joy graeme and pete hamill": "confirm",
   "the jolly sailor- piano solo- leaflet|||louise c. rebe": "hide",
   "the joy of music- early childhood- a comprehensive book of music, activities and instruction|||summy-birchard company": "hide",
-  "braindance music- eric challelle|||": "sold"
+  "braindance music- eric challelle|||": "sold",
+  "merry christmas, squirrels|||nancy rose": "sold",
+  "making music with choirchimes|||paul roses": "sold",
+  "music manipulatives workbook: playful props to reinforce musical concepts|||danielle bayert": "sold",
+  "the muppet christmas carol|||": "sold",
+  "clapper classics- 3 octaves|||martha lynn thompson and frances callahan": "sold",
+  "raffi's top 10 songs to read|||raffi": "sold",
+  "the 12 dogs of christmas|||emma kragen": "sold",
+  "woods, metals, shakers, skins- hoop group activities for your active music room|||artie almedia": "sold",
+  "garth prince|||": "sold",
+  "the magic of music- book 1|||ginn and company": "hide",
+  "the magic of music- kindergarten|||ginn and company": "hide",
+  "the muppet movie- made easy for piano|||atv music publications": {
+    "volumeId": "0__rAAAAMAAJ"
+  },
+  "the paramount christmas book #16- recitations, exercises, acrositcs, drills, dialogues, playlets|||": "hide",
+  "the power of music- harness the creative energy of music to heal the body, soothe the mind and feed the soul|||cynthia blanche and antonia beattie": "confirm",
+  "the reader's digest children's songbook- all time family favorites- includes lyrics pamphlet|||": "confirm",
+  "the recorder consort- 47 pieces for recorder consort collected by steve rosenberg|||steve rosenberg": "confirm",
+  "the singing book -second level- a music book based on the educational principles of zoltan kodaly|||mary alice hein and lois choksy": "confirm",
+  "the singing book- beginning level- a children's song book based on the principles of zoltan kodaly|||mary alice hein and lois choksy": "confirm",
+  "the singing book- intermediate level- a music book based on the educational principles of zoltan kodaly|||mary alice hein and lois choksy": "confirm",
+  "the soul of hand drumming- a companion book for beginner to advanced solo and circle hand drumming|||doug sole": {
+    "volumeId": "S5G7swEACAAJ"
+  },
+  "the stradivarius code- crack the codes to explore the history of musical instruments|||barbara meeks and geoff lorenz": "confirm",
+  "the sweet pipes recorder book- a method for adults and older beginners- alto|||gerald burakoff and william hettrick": "confirm",
+  "the sweet pipes recorder book- a method for adults and older beginners- soprano|||gerald burakoff and william hettrick": "confirm",
+  "the ventures- play 8 songs wwith sound alike cd tracks- vol. 116|||hal leonard play along guitar": "hide",
+  "there's a hole in the bucket- first steps in music cd|||john feirabend & jill trinka": "hide",
+  "tinwhistle today- how to play celtic, folk, blues, jazz, rock and classical music|||david harp": "hide",
+  "tis the season- recorder songs with orff instruments- christmas, thanksgiving, hanukkah|||carol king": "hide",
+  "today with music- experiences into reading with speech, song, instruments and movement|||grace nash": {
+    "volumeId": "jwVXclDsc3QC"
+  },
+  "toddlers make music- ones and two's! for parents and their toddlers|||lynn kleiner": {
+    "volumeId": "rV0erx0luXMC"
+  },
+  "toddlers make music- ones and two's- for parents and their toddlers|||lynn kleiner": {
+    "volumeId": "rV0erx0luXMC"
+  },
+  "tribes learning community- reaching all by creating|||jeanne gibbs": "confirm",
+  "twas the night before christmas- featuring a coca cola santa tribute|||": "hide",
+  "twas the night before christmas-a mini musical based on the famous poem- unison and 2 part voices- teacher's guide|||sally albrecht and jay althouse": "confirm",
+  "tyme for a rhyme- nursery rhymes with music for children|||randy delelles and jeff kriske": "confirm",
+  "uke'n play ukulele- learn to play instantly with chords and lyrics to over 50 songs|||mike jackson": "hide",
+  "very easy recorder tune- over 50 pieces for beginners|||usborne": "hide",
+  "waiting for santa claus|||gider and blakeley": "hide",
+  "waterloo rhythm band method- teacher's manual and scored music- nursery rhymes, folk tunes, classic pieces|||gladys dickson/hazel baggs": "hide",
+  "windsongs series for recorder, orff or kodaly programs- book 3- go tell aunt rhody- student book|||": "hide",
+  "windsongs series for recorder, orff or kodaly programs- book 5- a la claire fontaine- student book|||": "hide",
+  "with lots of love at christmas- a collection of christmas stories|||": {
+    "volumeId": "MzQpSgAACAAJ"
+  },
+  "world music drumming- a cross cultural curriculum- enhanced with song & drum ensemble recordings, projectable/printable pdf's and video demonstrations- 20th anniversary edition|||will schmid": "confirm",
+  "world of music- orff handbook-  grade 5|||silver burdett and ginn": "hide",
+  "yoga in action- a bobbie kalman book|||": "confirm",
+  "yoga in motion workbook- companion playbook for yoga in motion interactive video and happy and cozy music|||alima clarke and shakta kaur khalsa": "hide",
+  "you can teach yourself guitar|||mel bay": "hide",
+  "young composer's notebook- a student's guide to composing- vol. 3|||": "confirm",
+  "zoltan kodaly choral method- pentatonic music- 140 chuvash melodies- volume iv|||boosey and hawkes": "hide"
 }

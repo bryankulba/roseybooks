@@ -2137,40 +2137,6 @@
     "candidates": []
   },
   {
-    "id": 89,
-    "type": "Resource Book",
-    "title": "Clapper classics- 3 octaves",
-    "author": "Martha Lynn Thompson and Frances Callahan",
-    "subject": "Handbells",
-    "date": "1987",
-    "price": 5.0,
-    "mediaNote": "",
-    "coverUrl": "",
-    "googleBooksUrl": "",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "",
-    "matchConfidence": "none",
-    "candidates": []
-  },
-  {
-    "id": 90,
-    "type": "Resource Book",
-    "title": "Clapper classics- 3 octaves",
-    "author": "Martha Lynn Thompson and Frances Callahan",
-    "subject": "Handbells",
-    "date": "",
-    "price": 5.0,
-    "mediaNote": "",
-    "coverUrl": "",
-    "googleBooksUrl": "",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "",
-    "matchConfidence": "none",
-    "candidates": []
-  },
-  {
     "id": 91,
     "type": "Resource Book",
     "title": "Classical Themes for All Keyboards",
@@ -2670,23 +2636,6 @@
     "candidates": []
   },
   {
-    "id": 113,
-    "type": "Resource Book",
-    "title": "Elephant Jam- Sharon, Lois and Bram",
-    "author": "",
-    "subject": "Song Collection",
-    "date": "1980",
-    "price": 5.0,
-    "mediaNote": "",
-    "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=2jPwzwEACAAJ",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "Sharon, Lois & Bram, Canada's most popular chidlren's entertainers, have put together a collection of their best-loved-songs, games, and zany things to do with your friends and family ...",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
     "id": 114,
     "type": "Picture Book",
     "title": "Elf help",
@@ -2700,23 +2649,6 @@
     "publisher": "Hyperion Books for Children",
     "pageCount": 40,
     "summary": "Alfred E. Elf thinks it's high time Santa face the fax, weave a web, dish the disk -- and face the new millennium in high-tech style. But what happens when the computer crashes and there's a huge elf error?Margie Palatini and Mike Reed have concocted a hilarious story that also provides a reassuring message for today's hyper times: even though the world is fast-changing, the magic of Christmas endures.",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
-    "id": 115,
-    "type": "Picture Book",
-    "title": "Elf- A short story of a tall tale",
-    "author": "",
-    "subject": "",
-    "date": "",
-    "price": 2.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=nIm1xT6IW1AC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=nIm1xT6IW1AC",
-    "publisher": "",
-    "pageCount": 32,
-    "summary": "This is the story of Buddy Hobbs, an elf who feels a little out of place at the North Pole. But what Buddy lacks in elfin abilities, he makes up for in Christmas cheer!",
     "matchConfidence": "high",
     "candidates": []
   },
@@ -4761,23 +4693,6 @@
     "candidates": []
   },
   {
-    "id": 200,
-    "type": "Resource Book",
-    "title": "Kidstix- Rockin' Repertoire for Rhythm Readiness- Grades 3-6",
-    "author": "Artie Almeida",
-    "subject": "Percussion",
-    "date": "2014",
-    "price": 10.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=2tUzrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=2tUzrgEACAAJ",
-    "publisher": "Heritage Music Press",
-    "pageCount": 76,
-    "summary": "Get your students stuck on music with these engaging play-along arrangements that include warm-ups, traditional, classical, and popular music selections. Artie Almeida provides her tried-and-true teaching suggestions as well as instructions to create the homemade StickStations on which all of these pieces are played. Top-notch audio recordings are also included.",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
     "id": 201,
     "type": "Resource Book",
     "title": "KISS- Guide to playing guitar",
@@ -5212,23 +5127,6 @@
     "googleBooksUrl": "https://books.google.com/books?id=Wlg-0AEACAAJ",
     "publisher": "",
     "pageCount": null,
-    "summary": "",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
-    "id": 217,
-    "type": "Resource Book",
-    "title": "Listening Fun with Scarves and Tennis Balls",
-    "author": "Dan Fee",
-    "subject": "Listening",
-    "date": "2010",
-    "price": 10.0,
-    "mediaNote": "CD",
-    "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=exUkMwEACAAJ",
-    "publisher": "",
-    "pageCount": 48,
     "summary": "",
     "matchConfidence": "high",
     "candidates": []
@@ -5688,23 +5586,6 @@
     ]
   },
   {
-    "id": 236,
-    "type": "Resource Book",
-    "title": "Making music with choirchimes",
-    "author": "Paul Roses",
-    "subject": "Handbells",
-    "date": "",
-    "price": 5.0,
-    "mediaNote": "",
-    "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=kmkM0AEACAAJ",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
     "id": 237,
     "type": "Resource Book",
     "title": "Maran Illustrated Guitar",
@@ -5864,23 +5745,6 @@
     "publisher": "Abrams",
     "pageCount": null,
     "summary": "Hello Kitty celebrates Christmas with her friends and family.",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
-    "id": 246,
-    "type": "Picture Book",
-    "title": "Merry Christmas, Squirrels",
-    "author": "Nancy Rose",
-    "subject": "",
-    "date": "",
-    "price": 2.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=MttvCQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=MttvCQAAQBAJ",
-    "publisher": "Penguin",
-    "pageCount": 34,
-    "summary": "Most squirrels spend their winter days hiding acorns in the snow. Not Mr. Peanuts. He loves Christmas and he's very excited when Cousin Squirrel invites him to spend Christmas at his place. After a busy day building snowmen, sledding, snowshoeing, and roasting chestnuts, Mr. Peanuts and Cousin Squirrel settle in to wait for Santa ... Christmas is so much better when you have a friend to spend it with. THE PERFECT CHRISTMAS GIFT!",
     "matchConfidence": "high",
     "candidates": []
   },
@@ -6744,23 +6608,6 @@
         "googleBooksUrl": "https://books.google.com/books?id=QFAtwAEACAAJ"
       }
     ]
-  },
-  {
-    "id": 276,
-    "type": "Resource Book",
-    "title": "Music Manipulatives Workbook: Playful props to Reinforce Musical Concepts",
-    "author": "Danielle Bayert",
-    "subject": "Kodaly",
-    "date": "2019",
-    "price": 10.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=kMpuxAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=kMpuxAEACAAJ",
-    "publisher": "Alfred Music",
-    "pageCount": 72,
-    "summary": "Thirty everyday items, such as balloons, pinwheels, and plastic eggs, are transformed into tactile learning tools in this highly creative, hands-on, general music resource. Following an informative opening about the history, research, and value of educational manipulatives, each section provides several physical activities (with extensions and modifications) that are clearly tied to musical concepts of all kinds. Teach rhythm, melody, harmony, form, notation, composition, singing, playing---the ",
-    "matchConfidence": "high",
-    "candidates": []
   },
   {
     "id": 277,
@@ -8400,23 +8247,6 @@
         "googleBooksUrl": "https://books.google.com/books?id=5IZEl7T51VsC"
       }
     ]
-  },
-  {
-    "id": 339,
-    "type": "Picture Book",
-    "title": "Raffi's Top 10 Songs to Read",
-    "author": "Raffi",
-    "subject": "",
-    "date": "",
-    "price": 2.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=By8DAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=By8DAAAACAAJ",
-    "publisher": "New York : Crown Publishers",
-    "pageCount": 45,
-    "summary": "Includes lyrics, music, illustrations, and a suggested activity for each of ten children's songs.",
-    "matchConfidence": "high",
-    "candidates": []
   },
   {
     "id": 340,
@@ -11183,23 +11013,6 @@
     "candidates": []
   },
   {
-    "id": 445,
-    "type": "Picture Book",
-    "title": "The 12 dogs of christmas",
-    "author": "Emma Kragen",
-    "subject": "",
-    "date": "",
-    "price": 2.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=68nmjZ5s1L4C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=68nmjZ5s1L4C",
-    "publisher": "Thomas Nelson Inc",
-    "pageCount": 31,
-    "summary": "The perfect gift for petlovers of all ages. Getready for fun and lots of laughter. This delightful take on the traditionalsong \"The Twelve Days of Christmas\" is the funniest, furriest,freshest way to laugh through the holidays. Each day in the song reflects adifferent breed of dog, with original photography of snoring sheepdogs,chomping Chihuahuas, and even dancing Dalmatians--plus a free CD of the song. TheCD not only has 25 kids (plus dogs and a cat) doing the song, but it alsoincludes a Karao",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
     "id": 446,
     "type": "Picture Book",
     "title": "The angel tree",
@@ -12466,11 +12279,11 @@
     "date": "1965",
     "price": 5.0,
     "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=ehP40AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=ehP40AEACAAJ",
-    "publisher": "Independently Published",
+    "coverUrl": "",
+    "googleBooksUrl": "",
+    "publisher": "",
     "pageCount": null,
-    "summary": "\"Mark Knopfler Storybook: The Boy With Magic Fingers\" Introduce your little ones to the enchanting world of music through the inspiring journey of Mark Knopfler, the boy who turned his love for melodies into magic. This captivating storybook takes young readers on an exciting adventure, showcasing how passion, dedication, and creativity can transform dreams into reality. Children will learn the value of hard work, patience, and staying true to their unique talents. They'll discover how kindness,",
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -12494,7 +12307,7 @@
     "price": 5.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=zp56swEACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
     "pageCount": null,
     "summary": "",
@@ -12561,23 +12374,6 @@
     "candidates": []
   },
   {
-    "id": 498,
-    "type": "Picture Book",
-    "title": "The muppet Christmas Carol",
-    "author": "",
-    "subject": "",
-    "date": "",
-    "price": 2.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=2q47wQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=2q47wQEACAAJ",
-    "publisher": "Golden boook",
-    "pageCount": null,
-    "summary": "This holiday season, relive the beloved musical film The Muppet Christmas Carol—now an illustrated storybook! The classic holiday film The Muppet Christmas Carol comes to life in this illustrated storybook for kids. Narrated by The Great Gonzo as Charles Dickens, with help from his pal Rizzo the Rat, this fully illustrated children’s book retells the classic story of the beloved original film starring Michael Caine as Scrooge, Kermit the Frog as Bob Cratchit, and Miss Piggy as Mrs. Cratchit. In ",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
     "id": 499,
     "type": "Resource Book",
     "title": "The Muppet Movie- Made Easy for Piano",
@@ -12586,50 +12382,13 @@
     "date": "1979",
     "price": 2.0,
     "mediaNote": "",
-    "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=kDwsAgAACAAJ",
-    "publisher": "Fontana Press",
-    "pageCount": 120,
+    "coverUrl": "https://books.google.com/books/content?id=0__rAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "googleBooksUrl": "https://books.google.com/books?id=0__rAAAAMAAJ",
+    "publisher": "",
+    "pageCount": 138,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "kDwsAgAACAAJ",
-        "title": "The Muppet Movie",
-        "authors": [
-          "Steven Crist",
-          "Jack Burns",
-          "Jerry Juhl"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=kDwsAgAACAAJ"
-      },
-      {
-        "volumeId": "0__rAAAAMAAJ",
-        "title": "The Muppet Movie",
-        "authors": [],
-        "coverUrl": "https://books.google.com/books/content?id=0__rAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=0__rAAAAMAAJ"
-      },
-      {
-        "volumeId": "0GiPzwEACAAJ",
-        "title": "The Muppet Movie",
-        "authors": [
-          "Paul Williams"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=0GiPzwEACAAJ"
-      },
-      {
-        "volumeId": "rgJ6AwAAQBAJ",
-        "title": "More Movie Hits for the Teen Player",
-        "authors": [
-          "Dan Coates"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=rgJ6AwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=rgJ6AwAAQBAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 500,
@@ -12726,9 +12485,9 @@
     "price": 3.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=3W4unAEACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
-    "pageCount": 192,
+    "pageCount": null,
     "summary": "",
     "matchConfidence": "low",
     "candidates": [
@@ -12877,38 +12636,8 @@
     "publisher": "Raincoast Book Dist Limited",
     "pageCount": 79,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "Uw-YAAAACAAJ",
-        "title": "The Power of Music",
-        "authors": [
-          "Cynthia Blanche",
-          "Antonia Beattie"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=Uw-YAAAACAAJ"
-      },
-      {
-        "volumeId": "-87sPQAACAAJ",
-        "title": "The Power of Music",
-        "authors": [
-          "Cynthia Blanche",
-          "Anthonia Beattie"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=-87sPQAACAAJ"
-      },
-      {
-        "volumeId": "wxvh-B3ozdAC",
-        "title": "Power of Music",
-        "authors": [
-          "Cynthia Blanche"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=wxvh-B3ozdAC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=wxvh-B3ozdAC"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 512,
@@ -12941,57 +12670,8 @@
     "publisher": "Reader's Digest Association (Canada) Limited",
     "pageCount": 258,
     "summary": "All the words to all the songs in the Reader's Digest children's songbook inserted.",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "CYswAQAAIAAJ",
-        "title": "The Reader's Digest Children's Songbook",
-        "authors": [
-          "William L. Simon",
-          "Dan Fox"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=CYswAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=CYswAQAAIAAJ"
-      },
-      {
-        "volumeId": "E8U6AQAAIAAJ",
-        "title": "The Reader's Digest Merry Christmas Songbook",
-        "authors": [
-          "William L. Simon",
-          "Dan Fox"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=E8U6AQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=E8U6AQAAIAAJ"
-      },
-      {
-        "volumeId": "frOImQEACAAJ",
-        "title": "Treasury of Best Loved Songs",
-        "authors": [
-          "Reader's Digest Association"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=frOImQEACAAJ"
-      },
-      {
-        "volumeId": "6uInAQAAIAAJ",
-        "title": "The Reader's Digest",
-        "authors": [
-          "DeWitt Wallace",
-          "Lila Acheson Wallace"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=6uInAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=6uInAQAAIAAJ"
-      },
-      {
-        "volumeId": "Vz4hAQAAMAAJ",
-        "title": "Catalogue of Title-entries of Books and Other Articles Entered in the Office of the Librarian of Congress, at Washington, Under the Copyright Law ... Wherein the Copyright Has Been Completed by the Deposit of Two Copies in the Office",
-        "authors": [
-          "Library of Congress. Copyright Office"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=Vz4hAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=Vz4hAQAAMAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 514,
@@ -13024,54 +12704,8 @@
     "publisher": "",
     "pageCount": null,
     "summary": "\"Note: Inspired by the considerable success of The Recorder Consort, I was convinced of the need for a second volume to supplement the forty-seven pieces of the first, and provide a more comprehensive ready-made repertory under one cover. The collection is designed to introduced recorder players to the music best suited to their instrument--primarily of the Medieval, Renaissance and Baroque periods. It has been compiled with the amateur musician and school recorder group always in mind. The stan",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "1CK70QEACAAJ",
-        "title": "The Recorder Consort Vol. 2",
-        "authors": [
-          "Steven Rosenberg"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=1CK70QEACAAJ"
-      },
-      {
-        "volumeId": "f6aJYgEACAAJ",
-        "title": "The Recorder Consort, Vol 3",
-        "authors": [
-          "Steve Rosenberg"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=f6aJYgEACAAJ"
-      },
-      {
-        "volumeId": "Ooq4YgEACAAJ",
-        "title": "Recorder Consort, Vol 2",
-        "authors": [
-          "Steve Rosenberg"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=Ooq4YgEACAAJ"
-      },
-      {
-        "volumeId": "nj6vYgEACAAJ",
-        "title": "The Recorder Consort",
-        "authors": [
-          "Steve Rosenberg"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=nj6vYgEACAAJ"
-      },
-      {
-        "volumeId": "_snntgAACAAJ",
-        "title": "Recorder Book",
-        "authors": [
-          "Steve Rosenberg"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=_snntgAACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 516,
@@ -13138,58 +12772,8 @@
     "publisher": "",
     "pageCount": 99,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "DX_BmgEACAAJ",
-        "title": "The Singing Book, Intermediate Level",
-        "authors": [
-          "Lois Choksy",
-          "Mary Alice Hein"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=DX_BmgEACAAJ"
-      },
-      {
-        "volumeId": "vpJrngEACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein",
-          "Lois Choksy",
-          "Zoltán Kodály",
-          "Kathleen Dalton"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=vpJrngEACAAJ"
-      },
-      {
-        "volumeId": "zf61tgAACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein",
-          "Lois Choksy",
-          "Kathleen Dalton"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=zf61tgAACAAJ"
-      },
-      {
-        "volumeId": "zyf4jwEACAAJ",
-        "title": "The Singing Book",
-        "authors": [],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=zyf4jwEACAAJ"
-      },
-      {
-        "volumeId": "C6DHAQAACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=C6DHAQAACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 520,
@@ -13205,58 +12789,8 @@
     "publisher": "",
     "pageCount": 99,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "DX_BmgEACAAJ",
-        "title": "The Singing Book, Intermediate Level",
-        "authors": [
-          "Lois Choksy",
-          "Mary Alice Hein"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=DX_BmgEACAAJ"
-      },
-      {
-        "volumeId": "C6DHAQAACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=C6DHAQAACAAJ"
-      },
-      {
-        "volumeId": "vpJrngEACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein",
-          "Lois Choksy",
-          "Zoltán Kodály",
-          "Kathleen Dalton"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=vpJrngEACAAJ"
-      },
-      {
-        "volumeId": "zyf4jwEACAAJ",
-        "title": "The Singing Book",
-        "authors": [],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=zyf4jwEACAAJ"
-      },
-      {
-        "volumeId": "zf61tgAACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein",
-          "Lois Choksy",
-          "Kathleen Dalton"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=zf61tgAACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 521,
@@ -13272,58 +12806,8 @@
     "publisher": "",
     "pageCount": 99,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "DX_BmgEACAAJ",
-        "title": "The Singing Book, Intermediate Level",
-        "authors": [
-          "Lois Choksy",
-          "Mary Alice Hein"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=DX_BmgEACAAJ"
-      },
-      {
-        "volumeId": "vpJrngEACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein",
-          "Lois Choksy",
-          "Zoltán Kodály",
-          "Kathleen Dalton"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=vpJrngEACAAJ"
-      },
-      {
-        "volumeId": "C6DHAQAACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=C6DHAQAACAAJ"
-      },
-      {
-        "volumeId": "zf61tgAACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein",
-          "Lois Choksy",
-          "Kathleen Dalton"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=zf61tgAACAAJ"
-      },
-      {
-        "volumeId": "zyf4jwEACAAJ",
-        "title": "The Singing Book",
-        "authors": [],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=zyf4jwEACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 522,
@@ -13339,58 +12823,8 @@
     "publisher": "",
     "pageCount": 99,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "DX_BmgEACAAJ",
-        "title": "The Singing Book, Intermediate Level",
-        "authors": [
-          "Lois Choksy",
-          "Mary Alice Hein"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=DX_BmgEACAAJ"
-      },
-      {
-        "volumeId": "vpJrngEACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein",
-          "Lois Choksy",
-          "Zoltán Kodály",
-          "Kathleen Dalton"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=vpJrngEACAAJ"
-      },
-      {
-        "volumeId": "C6DHAQAACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=C6DHAQAACAAJ"
-      },
-      {
-        "volumeId": "zf61tgAACAAJ",
-        "title": "The Singing Book",
-        "authors": [
-          "Mary Alice Hein",
-          "Lois Choksy",
-          "Kathleen Dalton"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=zf61tgAACAAJ"
-      },
-      {
-        "volumeId": "zyf4jwEACAAJ",
-        "title": "The Singing Book",
-        "authors": [],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=zyf4jwEACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 523,
@@ -13401,62 +12835,13 @@
     "date": "1993",
     "price": 5.0,
     "mediaNote": "CD",
-    "coverUrl": "https://books.google.com/books/content?id=aTXeYgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=aTXeYgEACAAJ",
-    "publisher": "Soul Drums",
-    "pageCount": null,
-    "summary": "The hand drummers bible. Designed for use with any style hand drum, this book contains rhythms for percussion ensembles and solo hand drummers. Two styles of easy to understand notation are used. Includes information on playing positions and how to create varied sounds on a vast array of ethnic percussion instruments. A companion CD is included with this book.",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "aTXeYgEACAAJ",
-        "title": "The Soul of Hand Drumming",
-        "authors": [
-          "Doug Sole"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=aTXeYgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=aTXeYgEACAAJ"
-      },
-      {
-        "volumeId": "S5G7swEACAAJ",
-        "title": "The Soul of Hand Drumming",
-        "authors": [
-          "Doug Sole"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=S5G7swEACAAJ"
-      },
-      {
-        "volumeId": "i708zwEACAAJ",
-        "title": "Play Drums Today! Starter Pack",
-        "authors": [
-          "Scott Schroedl",
-          "Doug Downing"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=i708zwEACAAJ"
-      },
-      {
-        "volumeId": "DPt9oAEACAAJ",
-        "title": "Human Rhythmic Energy",
-        "authors": [
-          "Doug Sole"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=DPt9oAEACAAJ"
-      },
-      {
-        "volumeId": "u883mgEACAAJ",
-        "title": "Play Drums Today!",
-        "authors": [
-          "Scott Schroedl",
-          "Hal Leonard Publishing Corporation",
-          "Doug Downing"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=u883mgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=u883mgEACAAJ"
-      }
-    ]
+    "coverUrl": "",
+    "googleBooksUrl": "https://books.google.com/books?id=S5G7swEACAAJ",
+    "publisher": "",
+    "pageCount": 103,
+    "summary": "Comprehensive book for beginners to advanced solo and circle hand drummers.",
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 524,
@@ -13489,28 +12874,8 @@
     "publisher": "Heritage Music Press",
     "pageCount": 56,
     "summary": "Grades 4+ * A follow-up to the best-selling \"The Beethoven Code\" (30/2108H), this book offers an inventive and engaging way to approach the study of instruments. Step 1: Study the article about an instrument-choose from flute, harp, violin, piano, bassoon, trumpet, timpani, bagpipes, guitar, and more. You'll learn about its history, famous compositions written for it, and the performers who play it, but to get to the really good stuff, you'll have to crack the code. Step 2: Read the first questi",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "F91gYgEACAAJ",
-        "title": "The Stradivarius Code",
-        "authors": [
-          "Barbara Meeks",
-          "Geoff Lorenz"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=F91gYgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=F91gYgEACAAJ"
-      },
-      {
-        "volumeId": "c4yUtgAACAAJ",
-        "title": "Musical Instruments in the Works of Geoffrey Chaucer",
-        "authors": [
-          "Barbara Joan Lenz"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=c4yUtgAACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 526,
@@ -13560,59 +12925,8 @@
     "publisher": "",
     "pageCount": 47,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "NZxhoAEACAAJ",
-        "title": "The Sweet Pipes Recorder Book",
-        "authors": [
-          "Gerald Burakoff",
-          "William E. Hettrick"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=NZxhoAEACAAJ"
-      },
-      {
-        "volumeId": "7Xi3sp4U0tUC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 1",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=7Xi3sp4U0tUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=7Xi3sp4U0tUC"
-      },
-      {
-        "volumeId": "8hv4ngEACAAJ",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=8hv4ngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=8hv4ngEACAAJ"
-      },
-      {
-        "volumeId": "fTPKBysxAdQC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Book 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=fTPKBysxAdQC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=fTPKBysxAdQC"
-      },
-      {
-        "volumeId": "muOpYgEACAAJ",
-        "title": "Hands on Recorder",
-        "authors": [
-          "Gerald Burakoff",
-          "Sonya Burakoff"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=muOpYgEACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 529,
@@ -13628,59 +12942,8 @@
     "publisher": "",
     "pageCount": 47,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "NZxhoAEACAAJ",
-        "title": "The Sweet Pipes Recorder Book",
-        "authors": [
-          "Gerald Burakoff",
-          "William E. Hettrick"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=NZxhoAEACAAJ"
-      },
-      {
-        "volumeId": "7Xi3sp4U0tUC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 1",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=7Xi3sp4U0tUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=7Xi3sp4U0tUC"
-      },
-      {
-        "volumeId": "8hv4ngEACAAJ",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=8hv4ngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=8hv4ngEACAAJ"
-      },
-      {
-        "volumeId": "fTPKBysxAdQC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Book 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=fTPKBysxAdQC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=fTPKBysxAdQC"
-      },
-      {
-        "volumeId": "Yr4hzQEACAAJ",
-        "title": "Recorder Time",
-        "authors": [
-          "Gerald Burakoff",
-          "Sonya Burakoff"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=Yr4hzQEACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 530,
@@ -13696,59 +12959,8 @@
     "publisher": "",
     "pageCount": 47,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "NZxhoAEACAAJ",
-        "title": "The Sweet Pipes Recorder Book",
-        "authors": [
-          "Gerald Burakoff",
-          "William E. Hettrick"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=NZxhoAEACAAJ"
-      },
-      {
-        "volumeId": "7Xi3sp4U0tUC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 1",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=7Xi3sp4U0tUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=7Xi3sp4U0tUC"
-      },
-      {
-        "volumeId": "8hv4ngEACAAJ",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=8hv4ngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=8hv4ngEACAAJ"
-      },
-      {
-        "volumeId": "fTPKBysxAdQC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Book 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=fTPKBysxAdQC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=fTPKBysxAdQC"
-      },
-      {
-        "volumeId": "Yr4hzQEACAAJ",
-        "title": "Recorder Time",
-        "authors": [
-          "Gerald Burakoff",
-          "Sonya Burakoff"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=Yr4hzQEACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 531,
@@ -13764,59 +12976,8 @@
     "publisher": "",
     "pageCount": 47,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "NZxhoAEACAAJ",
-        "title": "The Sweet Pipes Recorder Book",
-        "authors": [
-          "Gerald Burakoff",
-          "William E. Hettrick"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=NZxhoAEACAAJ"
-      },
-      {
-        "volumeId": "7Xi3sp4U0tUC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 1",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=7Xi3sp4U0tUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=7Xi3sp4U0tUC"
-      },
-      {
-        "volumeId": "8hv4ngEACAAJ",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=8hv4ngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=8hv4ngEACAAJ"
-      },
-      {
-        "volumeId": "fTPKBysxAdQC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Book 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=fTPKBysxAdQC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=fTPKBysxAdQC"
-      },
-      {
-        "volumeId": "Yr4hzQEACAAJ",
-        "title": "Recorder Time",
-        "authors": [
-          "Gerald Burakoff",
-          "Sonya Burakoff"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=Yr4hzQEACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 532,
@@ -13832,59 +12993,8 @@
     "publisher": "",
     "pageCount": 47,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "NZxhoAEACAAJ",
-        "title": "The Sweet Pipes Recorder Book",
-        "authors": [
-          "Gerald Burakoff",
-          "William E. Hettrick"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=NZxhoAEACAAJ"
-      },
-      {
-        "volumeId": "7Xi3sp4U0tUC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 1",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=7Xi3sp4U0tUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=7Xi3sp4U0tUC"
-      },
-      {
-        "volumeId": "8hv4ngEACAAJ",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=8hv4ngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=8hv4ngEACAAJ"
-      },
-      {
-        "volumeId": "fTPKBysxAdQC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Book 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=fTPKBysxAdQC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=fTPKBysxAdQC"
-      },
-      {
-        "volumeId": "Yr4hzQEACAAJ",
-        "title": "Recorder Time",
-        "authors": [
-          "Gerald Burakoff",
-          "Sonya Burakoff"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=Yr4hzQEACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 533,
@@ -13900,59 +13010,8 @@
     "publisher": "",
     "pageCount": 47,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "NZxhoAEACAAJ",
-        "title": "The Sweet Pipes Recorder Book",
-        "authors": [
-          "Gerald Burakoff",
-          "William E. Hettrick"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=NZxhoAEACAAJ"
-      },
-      {
-        "volumeId": "7Xi3sp4U0tUC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 1",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=7Xi3sp4U0tUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=7Xi3sp4U0tUC"
-      },
-      {
-        "volumeId": "8hv4ngEACAAJ",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Bk 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=8hv4ngEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=8hv4ngEACAAJ"
-      },
-      {
-        "volumeId": "fTPKBysxAdQC",
-        "title": "The Beginners Method for Soprano and Alto Recorder, Book 2",
-        "authors": [
-          "Sonja Burakoff",
-          "Gerald Burakoff"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=fTPKBysxAdQC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=fTPKBysxAdQC"
-      },
-      {
-        "volumeId": "Yr4hzQEACAAJ",
-        "title": "Recorder Time",
-        "authors": [
-          "Gerald Burakoff",
-          "Sonya Burakoff"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=Yr4hzQEACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 534,
@@ -13997,11 +13056,11 @@
     "date": "",
     "price": 5.0,
     "mediaNote": "CD",
-    "coverUrl": "https://books.google.com/books/content?id=GRfKAQAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=GRfKAQAAQBAJ",
-    "publisher": "Hal Leonard Corporation",
-    "pageCount": 117,
-    "summary": "(Guitar Play-Along). The Guitar Play-Along Series will help you play your favorite songs quickly and easily! Just follow the tab, listen to the audio to hear how the guitar should sound, and then play along using the separate backing tracks. The melody and lyrics are also included in case you want to sing, too, or to simply help you follow along. 8 songs: Bad Case of Loving You * Bang a Gong (Get It On) * I Can't Explain * I Love Rock 'N Roll * La Bamba * Mony, Mony * Should I Stay or Should I G",
+    "coverUrl": "",
+    "googleBooksUrl": "",
+    "publisher": "",
+    "pageCount": null,
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -14060,11 +13119,11 @@
     "date": "",
     "price": 5.0,
     "mediaNote": "CD",
-    "coverUrl": "https://books.google.com/books/content?id=pNcwzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=pNcwzgEACAAJ",
-    "publisher": "First Steps in Music",
-    "pageCount": 100,
-    "summary": "Circle games are one of the principal joys of childhood, especially when played with a group of friends outdoors. From \"The Farmer in the Dell\" to \"London Bridge,\" these games encourage social skills, cognitive development, creativity, language development, motor skills, and of course music skills. Learning has never been so much fun! Because they are easy to learn and fun to play, circle games are a wonderful way to engage children, while at the same time planting seeds of musical sensitivity a",
+    "coverUrl": "",
+    "googleBooksUrl": "",
+    "publisher": "",
+    "pageCount": null,
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -14087,11 +13146,11 @@
     "date": "2003",
     "price": 5.0,
     "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=i6whnwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=i6whnwEACAAJ",
-    "publisher": "CreateSpace",
-    "pageCount": 296,
-    "summary": "BOOK ONLY (Audio CD available to buy on author's website). Learn to play Irish traditional music on the whistle with this tutor book from Tradschool 104 tunes (28 children's & folk songs + 76 traditional Irish tunes) This book gives a complete introduction to playing Irish music in the traditional style on the tin whistle; it covers all from the very first notes on the instrument to the most advanced ornamentation. The course is broadly divided into two parts, with the shorter first part coverin",
+    "coverUrl": "",
+    "googleBooksUrl": "",
+    "publisher": "",
+    "pageCount": null,
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -14166,10 +13225,10 @@
     "price": 5.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=c_EdzgEACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
-    "pageCount": 51,
-    "summary": "Recorder Christmas Tunes with Note Names includes 36 of our favourite Christmas carols, with the letter names of the notes written inside every note head. Large staves and a recorder fingering chart included. Perfect if you don't read music but want to play some Christmas songs and already know the tunes. Starting with the easiest, this collection will be enjoyed year after year. Ideal for getting right into the Christmas spirit or for entertaining the family and even busking. Also, a great way ",
+    "pageCount": null,
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -14227,61 +13286,13 @@
     "date": "",
     "price": 5.0,
     "mediaNote": "",
-    "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=1JEuNQAACAAJ",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "1JEuNQAACAAJ",
-        "title": "Classroom Ensembles in Song, Speech, Instruments & Movement for Grades 4 Through 6",
-        "authors": [
-          "Grace C. Nash",
-          "Janice Rapley"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=1JEuNQAACAAJ"
-      },
-      {
-        "volumeId": "f5jmswEACAAJ",
-        "title": "Rhythmic Speech Ensembles",
-        "authors": [
-          "Grace C. Nash"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=f5jmswEACAAJ"
-      },
-      {
-        "volumeId": "7EomrgEACAAJ",
-        "title": "Today with Music",
-        "authors": [
-          "Grace C. Nash"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=7EomrgEACAAJ"
-      },
-      {
-        "volumeId": "jwVXclDsc3QC",
-        "title": "Today with Music",
-        "authors": [
-          "Grace C. Nash"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=jwVXclDsc3QC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=jwVXclDsc3QC"
-      },
-      {
-        "volumeId": "kuB5AwAAQBAJ",
-        "title": "Music in the Making",
-        "authors": [
-          "Grace Nash",
-          "Janice Rapley"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=kuB5AwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=kuB5AwAAQBAJ"
-      }
-    ]
+    "coverUrl": "https://books.google.com/books/content?id=jwVXclDsc3QC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "googleBooksUrl": "https://books.google.com/books?id=jwVXclDsc3QC",
+    "publisher": "Alfred Music Publishing",
+    "pageCount": 68,
+    "summary": "\"The purpose of this book is to stimulate increasing awareness on the part of the child of his environment, and of his self-potential in relation to this environment. The book will also provide the stepping stones of musical development for both teacher and child.\"--Page ii.",
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 542,
@@ -14309,59 +13320,13 @@
     "date": "",
     "price": 10.0,
     "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=OX5yZyYF9q0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=OX5yZyYF9q0C",
+    "coverUrl": "https://books.google.com/books/content?id=rV0erx0luXMC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "googleBooksUrl": "https://books.google.com/books?id=rV0erx0luXMC",
     "publisher": "Alfred Music Publishing",
     "pageCount": 48,
-    "summary": "This wonderful book allows moms and dads to help develop musical skills in their 2-3-year olds while sharing special time with their children! Lynn Kleiner, master educator, has written about 30 songs and activities that are fun and easy to do at home or in a learning center classroom environment. Many photographs are included that explain the lessons at a glance.",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "OX5yZyYF9q0C",
-        "title": "Kids Make Music! Twos & Threes!",
-        "authors": [
-          "Lynn Kleiner"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=OX5yZyYF9q0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=OX5yZyYF9q0C"
-      },
-      {
-        "volumeId": "_J276JtVnxkC",
-        "title": "Kids Make Music Series: Kids Make Music! Twos & Threes!",
-        "authors": [
-          "Lynn Kleiner"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=_J276JtVnxkC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=_J276JtVnxkC"
-      },
-      {
-        "volumeId": "xRSjtARr52YC",
-        "title": "Kids Make Music Series: Toddlers Make Music! Ones & Twos!",
-        "authors": [
-          "Lynn Kleiner"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=xRSjtARr52YC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=xRSjtARr52YC"
-      },
-      {
-        "volumeId": "rV0erx0luXMC",
-        "title": "Toddlers Make Music!",
-        "authors": [
-          "Lynn Kleiner"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=rV0erx0luXMC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=rV0erx0luXMC"
-      },
-      {
-        "volumeId": "I8aLeUOIyHQC",
-        "title": "Kids Make Music Series: Babies Make Music!",
-        "authors": [
-          "Lynn Kleiner"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=I8aLeUOIyHQC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=I8aLeUOIyHQC"
-      }
-    ]
+    "summary": "This wonderful book allows moms and dads to help develop musical skills while spending special time with their toddlers! Lynn Kleiner, master educator, has written over 30 songs and activities that are fun and easy to do at home or in a learning center classroom environment.",
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 544,
@@ -14372,59 +13337,13 @@
     "date": "2000",
     "price": 10.0,
     "mediaNote": "CD",
-    "coverUrl": "https://books.google.com/books/content?id=OX5yZyYF9q0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=OX5yZyYF9q0C",
+    "coverUrl": "https://books.google.com/books/content?id=rV0erx0luXMC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "googleBooksUrl": "https://books.google.com/books?id=rV0erx0luXMC",
     "publisher": "Alfred Music Publishing",
     "pageCount": 48,
-    "summary": "This wonderful book allows moms and dads to help develop musical skills in their 2-3-year olds while sharing special time with their children! Lynn Kleiner, master educator, has written about 30 songs and activities that are fun and easy to do at home or in a learning center classroom environment. Many photographs are included that explain the lessons at a glance.",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "OX5yZyYF9q0C",
-        "title": "Kids Make Music! Twos & Threes!",
-        "authors": [
-          "Lynn Kleiner"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=OX5yZyYF9q0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=OX5yZyYF9q0C"
-      },
-      {
-        "volumeId": "_J276JtVnxkC",
-        "title": "Kids Make Music Series: Kids Make Music! Twos & Threes!",
-        "authors": [
-          "Lynn Kleiner"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=_J276JtVnxkC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=_J276JtVnxkC"
-      },
-      {
-        "volumeId": "xRSjtARr52YC",
-        "title": "Kids Make Music Series: Toddlers Make Music! Ones & Twos!",
-        "authors": [
-          "Lynn Kleiner"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=xRSjtARr52YC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=xRSjtARr52YC"
-      },
-      {
-        "volumeId": "rV0erx0luXMC",
-        "title": "Toddlers Make Music!",
-        "authors": [
-          "Lynn Kleiner"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=rV0erx0luXMC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=rV0erx0luXMC"
-      },
-      {
-        "volumeId": "I8aLeUOIyHQC",
-        "title": "Kids Make Music Series: Babies Make Music!",
-        "authors": [
-          "Lynn Kleiner"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=I8aLeUOIyHQC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=I8aLeUOIyHQC"
-      }
-    ]
+    "summary": "This wonderful book allows moms and dads to help develop musical skills while spending special time with their toddlers! Lynn Kleiner, master educator, has written over 30 songs and activities that are fun and easy to do at home or in a learning center classroom environment.",
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 545,
@@ -14474,37 +13393,8 @@
     "publisher": "Centersource Systems",
     "pageCount": null,
     "summary": "Reaching All by Creating Tribes Learning Communities blends the fields of group process and cooperative learning; prevention and resiliency; learning theory and school change into a comprehensive, meaningful whole. This readable, useable, wonderful book is not just a set of activities to build community. Jeanne Gibbs and her colleagues incorporate the latest research on teaching and learning. They illustrate specifically how the Tribes process applies to a variety of school and organizational ne",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "_og1AAAACAAJ",
-        "title": "Reaching All by Creating Tribes Learning Communities",
-        "authors": [
-          "Jeanne Gibbs"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=_og1AAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=_og1AAAACAAJ"
-      },
-      {
-        "volumeId": "c3GhHAAACAAJ",
-        "title": "Tribes",
-        "authors": [
-          "Jeanne Gibbs"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=c3GhHAAACAAJ"
-      },
-      {
-        "volumeId": "CmEMGwAACAAJ",
-        "title": "Tribes",
-        "authors": [
-          "Jeanne Gibbs",
-          "Allen, Andre, joint author"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=CmEMGwAACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 548,
@@ -14516,10 +13406,10 @@
     "price": 2.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=HVDrSAAACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
     "pageCount": null,
-    "summary": "The Coca-Cola Company's Santa are used to illustrate the well-known poem about an important Christmas visitor.",
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -14583,54 +13473,8 @@
     "publisher": "Alfred Music",
     "pageCount": 52,
     "summary": "Make this retelling of the timeless Christmas classic a holiday tradition at your school. Six festive songs are cleverly interspersed throughout the original Clement Clarke Moore poem, creating a brief theatrical performance that is sure to \"wow\" your holiday audience. From the cheery \"Christmas Is Coming,\" to the rockin' \"Reindeer on the Roof,\" and Tchaikovsky's traditional \"Dance of the Sugar Plum Fairies,\" 'Twas the Night Before Christmas is filled with memorable music and rhyming verse for a",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "gkNJLS2ErXgC",
-        "title": "'Twas the Night Before Christmas",
-        "authors": [
-          "Sally K. Albrecht",
-          "Jay Althouse"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=gkNJLS2ErXgC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=gkNJLS2ErXgC"
-      },
-      {
-        "volumeId": "wJLh-11wg7cC",
-        "title": "Dear Santa: Letters and Songs to the North Pole",
-        "authors": [
-          "Sally K. Albrecht",
-          "Jay Althouse",
-          "Andy Beck",
-          "Brian Fisher",
-          "Lois Brownsey",
-          "Marti Lunn Lantz"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=wJLh-11wg7cC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=wJLh-11wg7cC"
-      },
-      {
-        "volumeId": "QzSMNsBlR6YC",
-        "title": "The North Pole Radio Hour",
-        "authors": [
-          "Sally K. Albrecht",
-          "Jay Althouse",
-          "Steve Herold"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=QzSMNsBlR6YC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=QzSMNsBlR6YC"
-      },
-      {
-        "volumeId": "D0b-vSv2tK4C",
-        "title": "Santa's Stuck in the 50's",
-        "authors": [
-          "Sally K. Albrecht",
-          "Jay Althouse"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=D0b-vSv2tK4C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=D0b-vSv2tK4C"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 550,
@@ -14646,28 +13490,8 @@
     "publisher": "",
     "pageCount": 30,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "2_kLtwAACAAJ",
-        "title": "Tyme for a Rhyme",
-        "authors": [
-          "Randy DeLelles"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=2_kLtwAACAAJ"
-      },
-      {
-        "volumeId": "LzD1tgAACAAJ",
-        "title": "3rd Rhyme's the Charm",
-        "authors": [
-          "Jeff Kriske",
-          "Randy DeLelles"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=LzD1tgAACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 551,
@@ -14678,11 +13502,11 @@
     "date": "2013",
     "price": 5.0,
     "mediaNote": "CD",
-    "coverUrl": "https://books.google.com/books/content?id=rZZlwgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=rZZlwgEACAAJ",
+    "coverUrl": "",
+    "googleBooksUrl": "",
     "publisher": "",
     "pageCount": null,
-    "summary": "Forty-five easy to play ukulele songs and a play-along CD. Songs from artists including: Hank Williams, Bob Dylan and Johnny Cash alongside traditional tunes.Songs include:- Achy Breaky Heart- Buffalo Gals- Cockles And Mussels- Drunken Sailor- Goodnight Irene- Home On The Range- I Walk The Line- Waltzing Matilda",
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -14810,11 +13634,11 @@
     "date": "",
     "price": 5.0,
     "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=I-erywEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=I-erywEACAAJ",
-    "publisher": "Independently Published",
-    "pageCount": 70,
-    "summary": "Fun And Easy Recorder Sheet Music For Beginners simple and popular tunes sheet music with letters chords lyrics beautiful illustrations perfect for beginners great gift Buy and Play! :) 58 Simple Recorder Songs For Beginners: Mary Had a Little Lamb Twinkle Twinkle Little Star Can Can Baa, Baa, Black Sheep Ode To Joy Skip To My Lou Drink To Me Only With Thine Eyes This Old Man Row, Row, Row Your Boat Three Blind Mice When The Saints Go Marching In The Grand Old Duke Of York The Muffin Man Lavende",
+    "coverUrl": "",
+    "googleBooksUrl": "",
+    "publisher": "",
+    "pageCount": null,
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -14926,10 +13750,10 @@
     "price": 2.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=gEgdAQAACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
-    "pageCount": 32,
-    "summary": "A Christmas story.",
+    "pageCount": null,
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -14971,9 +13795,9 @@
     "price": 2.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=y-D2AAAACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
-    "pageCount": 25,
+    "pageCount": null,
     "summary": "",
     "matchConfidence": "low",
     "candidates": [
@@ -15298,7 +14122,7 @@
     "price": 5.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=dOpYjwEACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
     "pageCount": null,
     "summary": "",
@@ -15359,7 +14183,7 @@
     "price": 5.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=dOpYjwEACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
     "pageCount": null,
     "summary": "",
@@ -15420,7 +14244,7 @@
     "price": 5.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=dOpYjwEACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
     "pageCount": null,
     "summary": "",
@@ -15481,7 +14305,7 @@
     "price": 5.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=dOpYjwEACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
     "pageCount": null,
     "summary": "",
@@ -15593,7 +14417,7 @@
     "price": 5.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=dOpYjwEACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
     "pageCount": null,
     "summary": "",
@@ -15645,7 +14469,7 @@
     "price": 5.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=dOpYjwEACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
     "pageCount": null,
     "summary": "",
@@ -15713,61 +14537,13 @@
     "date": "",
     "price": 2.0,
     "mediaNote": "",
-    "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=v_9KswEACAAJ",
-    "publisher": "",
-    "pageCount": 117,
-    "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "v_9KswEACAAJ",
-        "title": "With Lots of Love at Christmas",
-        "authors": [],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=v_9KswEACAAJ"
-      },
-      {
-        "volumeId": "MzQpSgAACAAJ",
-        "title": "With Lots of Love at Christmas",
-        "authors": [
-          "Christine Leeson",
-          "Little Tiger Press"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=MzQpSgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=MzQpSgAACAAJ"
-      },
-      {
-        "volumeId": "b70TAAAAQAAJ",
-        "title": "The Battle of Life. A Love Story. With a Selection of Christmas Carols",
-        "authors": [
-          "Charles Dickens"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=b70TAAAAQAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=b70TAAAAQAAJ"
-      },
-      {
-        "volumeId": "irJ4EAAAQBAJ",
-        "title": "Finding Love With His Best Friend Gay Romance Story Collection",
-        "authors": [
-          "Mark Pace",
-          "Devyn Morgan",
-          "Rod Mandelli",
-          "Matthew W. Grant"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=irJ4EAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=irJ4EAAAQBAJ"
-      },
-      {
-        "volumeId": "taCVGMqIMt0C",
-        "title": "Christmas Stories from \"Household Words\" and \"All the Year Round\". With ... Illustrations",
-        "authors": [
-          "Charles Dickens"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=taCVGMqIMt0C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=taCVGMqIMt0C"
-      }
-    ]
+    "coverUrl": "https://books.google.com/books/content?id=MzQpSgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "googleBooksUrl": "https://books.google.com/books?id=MzQpSgAACAAJ",
+    "publisher": "Little Tiger Press",
+    "pageCount": 120,
+    "summary": "An enchanted collection of four complete picture book stories, with stunning illustrations. Ideal for sharing with your little one, to celebrate the magic of Christmas. Includes: The Snow Angel The Christmas Bear A Christmas Wish Hurry, Santa!",
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 590,
@@ -15787,23 +14563,6 @@
     "candidates": []
   },
   {
-    "id": 591,
-    "type": "Resource Book",
-    "title": "Woods, Metals, Shakers, Skins- Hoop Group Activities for your Active Music Room",
-    "author": "Artie Almedia",
-    "subject": "Percussion",
-    "date": "2018",
-    "price": 10.0,
-    "mediaNote": "Online Access Code",
-    "coverUrl": "https://books.google.com/books/content?id=8MSbuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=8MSbuAEACAAJ",
-    "publisher": "Heritage Music Press",
-    "pageCount": 56,
-    "summary": "Grades K-5. Have you ever wondered how to use all of the various percussion instruments youve picked up throughout the years to deliver rigorous music education? This book has the answer! Artie Almeida shares her best strategy for classroom percussion instruments: using plastic hoops to organize the class! Hoop Group Stations give students the chance to play instruments from a specific percussion family, and students can easily rotate stations to play a new set of instruments. Students will have",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
     "id": 592,
     "type": "Resource Book",
     "title": "World Music Drumming- A Cross Cultural Curriculum- Enhanced with Song & Drum Ensemble Recordings, Projectable/Printable PDF's and Video Demonstrations- 20th Anniversary Edition",
@@ -15817,53 +14576,8 @@
     "publisher": "",
     "pageCount": null,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "qlrIjgEACAAJ",
-        "title": "World Music Drumming",
-        "authors": [],
-        "coverUrl": "https://books.google.com/books/content?id=qlrIjgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=qlrIjgEACAAJ"
-      },
-      {
-        "volumeId": "hjg1PAAACAAJ",
-        "title": "World Music Drumming",
-        "authors": [
-          "Will Schmid"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=hjg1PAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=hjg1PAAACAAJ"
-      },
-      {
-        "volumeId": "aCEIAAAACAAJ",
-        "title": "World Music Drumming",
-        "authors": [
-          "Will Schmid"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=aCEIAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=aCEIAAAACAAJ"
-      },
-      {
-        "volumeId": "mNLW0QEACAAJ",
-        "title": "World Music Drumming",
-        "authors": [
-          "Will Schmid"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=mNLW0QEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=mNLW0QEACAAJ"
-      },
-      {
-        "volumeId": "f2yCSAAACAAJ",
-        "title": "Peanut Butter Jam",
-        "authors": [
-          "Will Schmid",
-          "Tom Anderson"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=f2yCSAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=f2yCSAAACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 593,
@@ -15875,7 +14589,7 @@
     "price": 10.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=U_TPMgEACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
     "pageCount": null,
     "summary": "",
@@ -15959,19 +14673,8 @@
     "publisher": "Crabtree Publishing Company",
     "pageCount": 36,
     "summary": "It's not a stretch to believe that kids will love Yoga in Action! Yoga is fast becoming one of the most popular forms of exercise in the world! Beautiful full-color images and engaging text will introduce kids to the history of yoga, the ins and outs of yogic breathing and meditation, as well as how to safely perform many yoga poses.",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "5s_0UlipMHUC",
-        "title": "Yoga in Action",
-        "authors": [
-          "Kelley MacAulay",
-          "Bobbie Kalman"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=5s_0UlipMHUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=5s_0UlipMHUC"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 596,
@@ -15982,11 +14685,11 @@
     "date": "2008",
     "price": 5.0,
     "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=ggNczgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=ggNczgEACAAJ",
+    "coverUrl": "",
+    "googleBooksUrl": "",
     "publisher": "",
-    "pageCount": 142,
-    "summary": "Comprehensive instructional text for teaching 16 rhythmic dance steps, 9 little dances, 15 reflective and moving meditations, 15 gentle moving yoga poses, and a 9 part basic 45 minute lesson plan divided into 5 minute segments. For children of all ages and abilities. 140 pages, 8.5 x 11 inch, 10,300 words. Fully illustrated. Large type.",
+    "pageCount": null,
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -16051,11 +14754,11 @@
     "date": "",
     "price": 5.0,
     "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=_oiAMAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=_oiAMAEACAAJ",
-    "publisher": "Mel Bay Publications",
+    "coverUrl": "",
+    "googleBooksUrl": "",
+    "publisher": "",
     "pageCount": null,
-    "summary": "A very comprehensive book that answers many frequently asked questions about song composition. It starts at the very beginning the basic concept, and takes you step-by-step to the final completion and production of a song.",
+    "summary": "",
     "matchConfidence": "low",
     "candidates": [
       {
@@ -16155,54 +14858,8 @@
     "publisher": "",
     "pageCount": null,
     "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "20WYoAEACAAJ",
-        "title": "Young Composer's Notebook",
-        "authors": [
-          "Frances Balodis"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=20WYoAEACAAJ"
-      },
-      {
-        "volumeId": "TCMfAAAACAAJ",
-        "title": "Young Composer's Notebook",
-        "authors": [
-          "Frances Balodis"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=TCMfAAAACAAJ"
-      },
-      {
-        "volumeId": "g-zCAQAACAAJ",
-        "title": "A Young Musician's Guide to Composing: Student Workbook",
-        "authors": [
-          "Charles Lauterbach"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=g-zCAQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=g-zCAQAACAAJ"
-      },
-      {
-        "volumeId": "2py6cgwm1sgC",
-        "title": "Creative Music Composition",
-        "authors": [
-          "Margaret Lucy Wilkins"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=2py6cgwm1sgC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=2py6cgwm1sgC"
-      },
-      {
-        "volumeId": "GBOnuwEACAAJ",
-        "title": "My Compositions, 1staff_10_v1.2, (8,5x11)",
-        "authors": [
-          "Guido Gottwald"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=GBOnuwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=GBOnuwEACAAJ"
-      }
-    ]
+    "matchConfidence": "high",
+    "candidates": []
   },
   {
     "id": 601,
@@ -16214,9 +14871,9 @@
     "price": 5.0,
     "mediaNote": "",
     "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=5_QbNAAACAAJ",
+    "googleBooksUrl": "",
     "publisher": "",
-    "pageCount": 48,
+    "pageCount": null,
     "summary": "",
     "matchConfidence": "low",
     "candidates": [
