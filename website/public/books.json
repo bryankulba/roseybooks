@@ -929,33 +929,6 @@
     "candidates": []
   },
   {
-    "id": 43,
-    "type": "Resource Book",
-    "title": "Alto Antics- A beginning alto recorder ensemble book",
-    "author": "Robert Amchin",
-    "subject": "Recorder",
-    "date": "2001",
-    "price": 5.0,
-    "mediaNote": "",
-    "coverUrl": "",
-    "googleBooksUrl": "",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "ovaAQgAACAAJ",
-        "title": "Recorder Frolics (Book)",
-        "authors": [
-          "Robert a. Amchin"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=ovaAQgAACAAJ"
-      }
-    ]
-  },
-  {
     "id": 44,
     "type": "Picture Book",
     "title": "Amazing Peace- A Christmas Poem",
@@ -1690,74 +1663,6 @@
     "candidates": []
   },
   {
-    "id": 71,
-    "type": "Resource Book",
-    "title": "Canya Conga- Conga Drum Activities for Grades 4-8",
-    "author": "Chris Judah-Lauder",
-    "subject": "Percussion",
-    "date": "2007",
-    "price": 10.0,
-    "mediaNote": "CD-ROM",
-    "coverUrl": "",
-    "googleBooksUrl": "",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "",
-    "matchConfidence": "low",
-    "candidates": [
-      {
-        "volumeId": "iy_FyQEACAAJ",
-        "title": "How to Play Conga Drums Vol. 1 (Beginners)",
-        "authors": [
-          "Jose Rosa"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=iy_FyQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=iy_FyQEACAAJ"
-      },
-      {
-        "volumeId": "4IP2MgEACAAJ",
-        "title": "Conga Drumming",
-        "authors": [
-          "Alan Dworsky",
-          "Betsy Sansby",
-          "Jorge Bermudez"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=4IP2MgEACAAJ"
-      },
-      {
-        "volumeId": "ScvTDwAAQBAJ",
-        "title": "Conga Drumming",
-        "authors": [
-          "Alan Dworsky",
-          "Betsy Sansby"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=ScvTDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=ScvTDwAAQBAJ"
-      },
-      {
-        "volumeId": "MXVkswEACAAJ",
-        "title": "Conga Drumming",
-        "authors": [
-          "Alan Dworsky",
-          "Betsy Sansby",
-          "First Last"
-        ],
-        "coverUrl": "",
-        "googleBooksUrl": "https://books.google.com/books?id=MXVkswEACAAJ"
-      },
-      {
-        "volumeId": "nZqp6pSjZboC",
-        "title": "Authentic Conga Rhythms (Revised)",
-        "authors": [
-          "Bob Evans"
-        ],
-        "coverUrl": "https://books.google.com/books/content?id=nZqp6pSjZboC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-        "googleBooksUrl": "https://books.google.com/books?id=nZqp6pSjZboC"
-      }
-    ]
-  },
-  {
     "id": 72,
     "type": "Christmas Resource",
     "title": "Celebrate Christmas Around the world",
@@ -2162,23 +2067,6 @@
         "googleBooksUrl": "https://books.google.com/books?id=7zYkDwAAQBAJ"
       }
     ]
-  },
-  {
-    "id": 92,
-    "type": "Resource Book",
-    "title": "Classroom management for Art, music and PE teachers",
-    "author": "Michael Linsin",
-    "subject": "Misc",
-    "date": "2014",
-    "price": 10.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=z2CMoAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=z2CMoAEACAAJ",
-    "publisher": "Jme Publishing",
-    "pageCount": 164,
-    "summary": "Teaching 400-600 students every week presents the ultimate classroom management challenge, one that if you're unprepared for can bury you in a mountain of stress and misbehavior. Classroom Management for Art, Music, and PE Teachers is a proven solution that will transform even the most difficult group of students into the peaceful, well-behaved class you really want. It provides the tools, tips, and strategies you need to simply and effectively manage any classroom, no matter how unruly or out o",
-    "matchConfidence": "high",
-    "candidates": []
   },
   {
     "id": 93,
@@ -5200,23 +5088,6 @@
     "candidates": []
   },
   {
-    "id": 224,
-    "type": "Resource Book",
-    "title": "Little Ukers- A comprehensive ukulele method for young students- 2nd edition- Level 1- C Tuning- (low) G C E A",
-    "author": "Melissa McKnight",
-    "subject": "Ukulele",
-    "date": "2007",
-    "price": 10.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=g3XEIAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=g3XEIAAACAAJ",
-    "publisher": "",
-    "pageCount": 48,
-    "summary": "The Little Ukers book is a method book for teaching young students music literacy skills and how to play the ukulele. A guided approach suitable for elementary schools.",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
     "id": 225,
     "type": "Resource Book",
     "title": "Look What Followed Me Home!- and other songs for Children- arranged for orff instruments",
@@ -5255,23 +5126,6 @@
     "publisher": "Alfred Publishing Company",
     "pageCount": 84,
     "summary": "Includes units for Africa, Brazil, China, New Zealand, United States, and Spain. Each unit contains a guide illustrating how to make simple instruments that are representative of the country and a musical play based on an authentic folktale. Most of the materials needed can be found at home or purchased for a minimal amount of money.",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
-    "id": 227,
-    "type": "Resource Book",
-    "title": "Make it Music- Dalcroze Strategies for Every Classroom-Booklet and card set",
-    "author": "Anthony Molinaro and Stephen Neely",
-    "subject": "Dalcroze",
-    "date": "2025",
-    "price": 20.0,
-    "mediaNote": "",
-    "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=ynOt0QEACAAJ",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "\"Transform your music classroom into a creative, vibrant, and playful space with Make It Music, an innovative resource rooted in the movement-based tradition of Dalcroze Eurhythmics. This package includes more than 200 cards with prompts to inspire thousands of short, unique movement activities that can be seamlessly incorporated into any lesson plan. The cards are divided into four decks, with prompts to inspire thousands of short, unique movement activities that can be seamlessly incorporated ",
     "matchConfidence": "high",
     "candidates": []
   },
@@ -9874,23 +9728,6 @@
     ]
   },
   {
-    "id": 401,
-    "type": "Resource Book",
-    "title": "Songs of Joy- Reproducible music for Elementary Choir",
-    "author": "Craig Cassils",
-    "subject": "Choral",
-    "date": "2003",
-    "price": 10.0,
-    "mediaNote": "",
-    "coverUrl": "",
-    "googleBooksUrl": "https://books.google.com/books?id=qO05QwAACAAJ",
-    "publisher": "",
-    "pageCount": null,
-    "summary": "",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
     "id": 402,
     "type": "CD",
     "title": "songs of peace- craig cassiles",
@@ -10019,23 +9856,6 @@
     "publisher": "",
     "pageCount": 22,
     "summary": "The Sound We Found is a child's listen and look book, designed to encourage early sound and rhyme play. Follow Baby Bear to find sounds during the day, then listen, and look! A great resource to aid early speech and language development and babble with your baby, toddler or child. It's also a fantastic way for parents and babies to bond.",
-    "matchConfidence": "high",
-    "candidates": []
-  },
-  {
-    "id": 407,
-    "type": "Resource Book",
-    "title": "Spice it up- Songs, Dances, Games and Orff Accompaniments for Elementary and Middle School Students",
-    "author": "Konnie Saliba",
-    "subject": "Orff",
-    "date": "1998",
-    "price": 5.0,
-    "mediaNote": "",
-    "coverUrl": "https://books.google.com/books/content?id=B80kUJsHxtkC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
-    "googleBooksUrl": "https://books.google.com/books?id=B80kUJsHxtkC",
-    "publisher": "Alfred Music",
-    "pageCount": 44,
-    "summary": "Spice It Up is a collection of songs for students of all ages. Some songs are traditional, well-known melodies. Some are folk songs, and some were written by author Konnie Saliba just for fun. All of the lessons provide ideas for the teacher to \"kick it up a notch\" during the music hour, and encourage creative choices by the students so they can \"take ownership\" of the music they helped put together. This thoughtful, fun folio is designed with the needs of the music educator in mind, and contain",
     "matchConfidence": "high",
     "candidates": []
   },
